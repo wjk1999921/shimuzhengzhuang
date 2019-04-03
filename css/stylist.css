@@ -1,66 +1,185 @@
 body{background:#efefef}
-/*请输入设计师名称*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    position: relative;
+    width: 100%;
+    height: 8000px;
+    margin: 0 auto;
+    max-width: 767px;
+    min-width: 320px;
+	 background: pink;
+}
+.shejishi{
+	background: #fff;
+}
+/*输入框*/
 .shuru{
 	width:96.08%;
-	height:50px;margin:0 auto;
+	height:50px;
+	margin:0 auto;
 	padding-top:28px;
 	padding-bottom:15px;
-	position: relative;
-	/*background: red;*/
+	position:relative;
 }
-.shuru input[type=text]{
+.shuru>input[type=text]{
 	text-align:center;
 	width:100%;
 	height: 50px;
+	margin-bottom: 15px;
 	border-radius:12px;
 	font-size:1.5em;
 }
 .shuru>img{
-    position: absolute;
-    top: 37px;
-    right: 33px;
-    width: 27px;
-    height: 27px;
+	position: absolute;
+	top: 38px;
+	right: 55px;
+	height: 27px;
+	width: 27px;
 }
-/*曾敏简介*/
+/*输入框结束*/
 .intro{
+	width: 92.1%;
+	margin: 0 auto;
 	display: flex;
-	box-shadow: 5px 5px 5px;
-	box-sizing: border-box;
+	box-shadow: 2px 2px 2px #ddd;
+	/*background: blue;*/
 }
+/*曾敏设计师左边*/
 .intro_left{
 	flex: 1;
-	
 }
+.intro_left>img{
+	height: 389px;
+}
+/*曾敏设计师右边*/
 .intro_right{
 	flex: 2;
 	border-top: 1px solid #ddd;
-	background: red;
 }
-/*右边*/
 .zengmin{
 	display: flex;
+	padding-bottom: 17px;
+	/*background: yellow;*/
 }
 .zengmin>li{
 	flex: 1;
+	justify-content: space-between;
+	display: flex;
 }
 .zengmin>li:nth-child(1){
-	padding-left: 42px;
-	padding-top: 20px;
+	padding-top: 27px;
+	padding-left: 20px;
 	font-size: 2em;
 	box-sizing: border-box;
 }
 .zengmin>li:nth-child(2){
-	padding-top: 40px;
-	font-size: 1.4em;
+	padding-top: 38px;
+	font-size: 1.5em;
 	box-sizing: border-box;
 }
 .zengmin>li:nth-child(3) img{
-	width: 57px;
-	height: 57px;
+	align-self: flex-end;
+	width: 65px;
+	height: 67px;
+	padding-left: 40px;
 	padding-top: 6px;
-	margin-left: 40%;
-	box-sizing: border-box;
 }
-/*.intro_right>ul*/
-
+.intro_right>ul{
+	padding-left: 32px;
+}
+/*从业经验*/
+.jingyan{
+	display: flex;
+}
+.jingyan>p:nth-child(1){
+	font-size: 1.5em;
+	margin-top: 18px;
+}
+.jingyan>p:nth-child(2){
+	font-size: 1.5em;
+	margin-top: 18px;
+	color: #fd9d29;
+}
+.style>p:nth-child(1){
+	font-size: 1.5em;
+}
+.style>p:nth-child(2){
+	font-size: 1.5em;
+	color: #fd9d29;
+	padding: 36px 0;
+	text-align: center;
+}
+/*各个设计师*/
+.every_stylist{
+	padding: 37px 31PX;
+}
+.every_stylist>ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.every_stylist>ul>li{
+	width: 48%;
+	padding-top: 384PX;
+	background: red;
+}
+.every_stylist>ul>li:nth-child(1){	
+	background-image: url(../images/YY1.jpg);
+	background-size: 100%;
+}
+.every_stylist>ul>li:nth-child(2){	
+	margin-left: 2%;
+	background-image: url(../images/ZB1.jpg);
+	background-size: 100%;
+}
+.every_stylist>ul>li:nth-child(3){	
+	margin-top: 2%;
+	background-image: url(../images/ZL1.jpg);
+	background-size: 100%;
+}
+.every_stylist>ul>li:nth-child(4){	
+	margin-top: 2%;
+	margin-left: 2%;
+	background-image: url(../images/ZM1.jpg);
+	background-size: 100%;
+}
+.yuanyuan{
+	padding: 18px 0 18px 57px;
+	background: rgba(0,0,0,0.7);
+	font-size: 1.4em;
+	color: #d27d26;
+}
+.yuanyuan>span{
+	font-size: 1.6em;
+	margin-right: 8px;
+}
+/*各个设计师结束*/
+/*杨靖*/
+.yangjing{
+	margin-top: 21px;
+	background: #fff;
+}
+.yj_intro{
+	width: 92.1%;
+	margin: 0 auto;
+	display: flex;
+	height: 394px;
+	padding-top: 29px;
+	box-shadow: 2px 2px 2px #ddd;
+	/*background: blue;*/
+}
+.yj_photo>img{
+	height: 394px;
+}
+#longjiayi{
+	background-image: url(../images/YY1.jpg);
+	background-size: 100%;
+}

@@ -1,0 +1,52 @@
+body{background:#efefef}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    position: relative;
+    width: 100%;
+    height: 8000px;
+    margin: 0 auto;
+    max-width: 767px;
+    min-width: 320px;
+	 background: pink;
+}
+/*免费预订样式开始*/
+.free{
+	padding: 30px 29px;
+	background: red;
+}
+/*免费预订样式上*/
+.free_top>ul{
+	display: flex;
+}
+.free_top>ul>li:nth-child(1){
+	width: 36px;
+	height: 36px;
+}
+.free_top>ul>li:nth-child(2){
+	padding:0 3%;
+	font-size: 1.5em;
+}
+.free_top>ul>li:nth-child(3){
+	font-size: 1.2em;
+	color: #ddd;
+}
+/*免费预订样式上结束*/
+/*下输入框*/
+.free_bottom{
+	display: flex;
+}
+.free_bottom input:nth-child(1){
+	width: 152px;
+	height: 81px;
+}
+/*下输入框结束*/
+/*免费预订样式结束*/

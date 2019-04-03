@@ -1,0 +1,251 @@
+body{background:#efefef}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    position: relative;
+    width: 100%;
+    /*height: 8000px;*/
+    margin: 0 auto;
+    max-width: 767px;
+    min-width: 320px;
+	 /*background: pink;*/
+}
+/*工艺*/
+.gongyi{
+	background: #fff;
+}
+/*标志-?*/
+.biaozhi{
+	padding: 38px 65px;
+	/*background: red;*/
+}
+.biaozhi>ul{
+	display: flex;
+}
+.biaozhi>ul>li{
+	width: 20%;
+	margin-left: 3%;
+}
+.biaozhi>ul>li>img{
+	width: 87px;
+	height: 87px;
+}
+.biaozhi>ul>li>p{
+	margin-top: 9px;
+	font-size: 1.2em;
+}
+/*标志-jieshu*/
+.gusha{
+	padding: 36px 29px;
+	/*background: blue;*/
+}
+/*1、铂金防尘固沙工艺*/
+/*顶部文字*/
+.contents{
+	display: flex;
+	padding-bottom: 47px;
+}
+.contents>p:nth-child(1){
+	font-size: 1.8em;
+}
+.contents>p:nth-child(2){
+	margin-left: 2%;
+	margin-top: 1%;
+	color: #ddd;
+	font-size: 1.5em;
+}
+/*底部图片*/
+.gs_photo{
+	
+}
+.gs_photo>ul{
+	display: flex;
+	flex-wrap: wrap;	
+}
+.gs_photo>ul>li{
+	width: 49%;
+	/*background: #fff;*/
+}
+.gs_photo>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.gs_photo>ul>li:nth-child(2),.gs_photo>ul>li:nth-child(4){
+	margin-left: 2%;
+}
+.gs_photo>ul>li>p:nth-child(1){
+	padding-top: 7px;
+	color: #e8b116;
+	font-size: 1.2em;
+	text-align: center;
+	box-sizing: border-box;
+}
+.gs_photo>ul>li>p:nth-child(2){
+	padding-top: 10px;
+	font-size: 0.8em;
+	box-sizing: border-box;
+}
+/*1、铂金防尘固沙工艺jieshu*/
+/*水电工艺开始*/
+.shuidian{
+	padding: 36px 29px;
+	margin-top: 23px;
+	background:#fff;
+}
+.sd_photo>ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sd_photo>ul>li{
+	width: 32%;
+	height: 296px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/*调整左边距离*/
+.sd_juli{
+	margin-left: 1%;
+}
+/*调整上边距离*/
+.sd_photo>ul>li:nth-last-child(-n+3){
+	margin-top: 17px;
+}
+.sd_photo>ul>li>p:nth-child(1){
+	padding-top: 7px;
+	color: #e8b116;
+	font-size: 1.2em;
+	text-align: center;
+	box-sizing: border-box;
+}
+.sd_photo>ul>li>p:nth-child(2){
+	margin-top: -50px;
+	font-size: 0.8em;
+	box-sizing: border-box;
+}
+.sd_photo>ul>li>img{
+	display: block;
+	align-self: flex-end;
+}
+/*水电工艺结束*/
+/*3、铂金泥工工艺*/
+.ng_photo>ul{
+	display: flex;
+}
+.ng_photo>ul>li{
+	width: 32%;
+	/*background: blue;*/
+}
+/*调整距离*/
+.ng_photo>ul>li:nth-last-child(-n+2){
+	margin-left: 1%;
+}
+.ng_photo>ul>li>p:nth-child(2){
+	padding-top: 7px;
+	color: #e8b116;
+	font-size: 1.2em;
+	text-align: center;
+	box-sizing: border-box;
+}
+.ng_photo>ul>li>p:nth-child(3){
+	margin-top: 15px;
+	font-size: 0.9em;
+	box-sizing: border-box;
+}
+/*第二个格子  防水*/
+#fangshui>p:nth-child(1){
+	padding-top: 7px;
+	color: #e8b116;
+	font-size: 1.2em;
+	text-align: center;
+	box-sizing: border-box;
+}
+#fangshui_con{
+	padding-top: 24px;
+	padding-bottom: 39px;
+	font-size: 0.9em;
+	color: #000;
+	box-sizing: border-box;
+}
+/*3、铂金泥工工艺结束*/
+/*4 金木工艺*/
+.jinmu{
+	padding: 36px 29px;
+	margin-top: 23px;
+	background:#fff;
+}
+/*.-合作品牌*/
+.pp_photo{
+	padding: 0 75px;
+}
+.pp_photo>ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.pp_photo>ul>li{
+	width: 49%;
+}
+.pp_photo>ul>li:nth-child(2),.pp_photo>ul>li:nth-child(4),.pp_photo>ul>li:nth-child(6){
+	margin-left: 2%;
+}
+.pp_photo>ul>li:nth-last-child(-n+4){
+	margin-top: 2%;
+}
+/*商标*/
+.shangbiao{
+	padding: 0 75px;
+	margin-top: 17px;
+	margin-bottom: 200px;
+}
+.shangbiao>ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.shangbiao>ul>li{
+	width: 24%;
+}
+.shangbiao>ul>li:nth-last-child(-n+4){
+	margin-top: 2%;
+}
+.shangbiao>ul>li:nth-child(2),.shangbiao>ul>li:nth-child(3),.shangbiao>ul>li:nth-child(4){
+	margin-left: 1%;
+}
+.shangbiao>ul>li:nth-child(6),.shangbiao>ul>li:nth-child(7),.shangbiao>ul>li:nth-child(8){
+	margin-left: 1%;
+}
+/*固定定位*/
+.guding{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    width:100%;
+    max-width: 767px;
+    background: #ffc040;
+}
+.guding>ul{
+    display: flex;
+    justify-content: space-around;
+}       
+.guding>ul>li{
+    width: 20%;
+    text-align: center;
+}
+.guding>ul>li>img{
+    display: block;
+    width: 54px;
+    height: 54px;
+    margin-left: 35%;
+}
+.guding>ul>li>p{
+    color: #fff;
+    margin-top: 9px;
+    font-size: 1.3em;
+}
