@@ -4,28 +4,59 @@ body{background:#efefef}
     margin: 0;
     list-style: none;
 }
+a{
+	text-decoration: none;
+}
 img{
     width: 100%;
     display: block;
 }
 /*大容器*/
 .container{
-    position: relative;
     width: 100%;
-    height: 8000px;
+    /*height: 8000px;*/
     margin: 0 auto;
     max-width: 767px;
     min-width: 320px;
-	 background: pink;
+	 /*background: pink;*/
+}
+/*顶部图*/
+.top{
+	width: 100%;
+	position: relative;
+}
+.bg_dingwei{
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	height: 89px;
+	display: flex;
+	justify-content: space-around;
+	/*background: blue;*/
+}
+.bg_dingwei>div:nth-child(1){
+	margin-left: -6%;
+	margin-top: 2.5%;
+	line-height: 89px;
+}
+.bg_dingwei>div:nth-child(2){
+	margin-left: -10%;
+	align-self: center;
+	line-height: 89px;
+}
+.bg_dingwei>a{
+	display: inline-block;
+	align-self: flex-end;
 }
 /*免费预订样式开始*/
 .free{
 	padding: 30px 29px;
-	background: red;
+	background: #fff;
 }
 /*免费预订样式上*/
 .free_top>ul{
 	display: flex;
+	padding-bottom: 20px;
 }
 .free_top>ul>li:nth-child(1){
 	width: 36px;
@@ -33,20 +64,293 @@ img{
 }
 .free_top>ul>li:nth-child(2){
 	padding:0 3%;
-	font-size: 1.5em;
+	font-size: 2vw;
 }
 .free_top>ul>li:nth-child(3){
-	font-size: 1.2em;
+	font-size: 1.8vw;
 	color: #ddd;
 }
 /*免费预订样式上结束*/
 /*下输入框*/
 .free_bottom{
 	display: flex;
+	/*align-content: center;*/
 }
 .free_bottom input:nth-child(1){
-	width: 152px;
-	height: 81px;
+	width: 154px;
+	height: 80px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.8vw;
+	margin-right: 2%;
+	box-sizing: border-box;
+}
+.free_bottom input:nth-child(2){
+	width: 382px;
+	height: 80px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.8vw;
+	box-sizing: border-box;
+}
+.free_bottom>p{
+	width: 153px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.8vw;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background: #fd9729;
 }
 /*下输入框结束*/
+/*图标开始*/
+.tubiao{
+	display: flex;
+	text-align: center;
+	margin-top: 20px;
+	padding: 22px 0;
+	font-size: 2vw;
+	justify-content: space-around;
+	background: #fff;
+}
+.tubiao>a{
+	color: #000;
+}
+.tubiao>a>img{
+	margin-bottom: 18px;
+}
+/*图标结束*/
+/*全新实木整装开始*/
+.new{
+	margin-top: 20px;
+	padding: 32px 29px;
+	background: #fff;
+}
+/*顶部文字*/
+.new_con>ul{
+	display: flex;
+	margin-bottom: 31px;
+	/*background: blue;*/
+}
+.new_con>ul>li:nth-child(2){
+	font-size: 1.8vw;
+	margin-left: 1.5%;
+}
+.new_con>ul>li:nth-child(3){
+	font-size: 1.6vw;
+	margin-left: 3%;
+	color: #ddd;
+}
+.new_con>ul>li:nth-child(4){
+	width: 25%;
+	margin-left: 5.4%;
+	text-align-last: right;
+}
+.new_con>ul>li>a{
+	color: #6e6e6e;
+	font-size: 1.8vw;
+	
+}
+/*顶部文字结束*/
+/*全新实木整装开始结束*/
+/*家装案例kaishi*/ 
+/*更多*/
+#more{
+	width: 25%;
+	margin-left: 23.4%;
+	text-align-last: right;
+}
+/*顶部图片*/
+.anli>ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.anli>ul>li:nth-last-child(-n+2){
+	margin-top: 27px;
+}
+/*顶部文字*/
+.anli>div{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 1.6vw;
+}
+/*家装案例结束*/
+/*20秒出预算开始*/
+/*图片上的文字*/
+.yusuan_top{
+	width: 100%;
+	height: 158px;
+	text-align: center;
+	color: #fff;
+	padding: 42px 0;
+	margin-bottom: 56px;
+	box-sizing: border-box;
+	background-image: url(../images/discounts/img3_19.png);
+	background-size: 100%;
+}
+.yusuan_top>p:nth-child(1){
+	font-size: 2.5vw;
+}
+.yusuan_top>p:nth-child(2){
+	font-size: 1.9vw;
+	margin-top: 9px;
+}
+.yusuan_top>p>span{
+	color: #fd9729;
+}
+/*图片上的文字结束*/
+/*输入框样式开始*/
+.shurukuang{
+	display: flex;
+	flex-wrap: wrap;
+}
+.shurukuang input[type="text"]{
+	width: 100%;
+	height: 81px;
+	font-size: 2vw;
+	padding-left: 3%;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-bottom: 28px;
+}
+/*输入框结束*/
+/*验证码开始*/
+.yanzhengma{
+	display: flex;
+}
+.yanzhengma>p{
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	margin-right: 2%;
+	width: 454px;
+	height: 81px;
+}
+.yanzhengma>img{
+	width: 212px;
+}
+/*验证码结束*/
+/*发送至手机*/
+.send{
+	width: 100%;
+	height: 81px;
+	line-height: 81px;
+	text-align: center;
+	color: #fff;
+	font-size: 2.8vw;
+	margin-top: 28px;
+	margin-bottom: 80px;
+	border: 2px solid #ddd;
+	box-sizing: border-box;
+	background:  #fd9729;
+}
+/*20秒出预算结束*/
+/*选设计师开始*/
+/*更多*/
+#sjs_more{
+	width: 25%;
+	margin-left: 14.4%;
+	text-align-last: right;
+}
+.shejishi{
+	width: 100%;
+	padding: 20px 20px 43px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: #EEEEEE;
+}
+.yangjing{
+	display: flex;
+	justify-content: space-between;
+}
+.yangjing_left{
+	width: 42.68%;
+}
+/*右边*/
+.yangjing_right{
+	width: 54.72%;
+	/*background: blue;*/
+}
+.yangjing_right ul li:nth-child(1){
+	width: 65%;
+	display: flex;
+	justify-content: space-between;	
+}
+.yangjing_right ul li p:nth-child(1){
+	margin-top: 16px;
+	font-size: 2.5vw;
+}
+.yangjing_right ul li p:nth-child(2){
+	font-size: 1.8vw;
+	align-self: flex-end;
+}
+.jingyang{
+	margin-top: 24px;
+}
+.jingyang_a{	
+	font-size: 1.8vw;
+}
+.jingyang_b{	
+	font-size: 1.8vw;
+	color: #fd9729;
+	text-align: right;
+}
+.style{
+	text-align: center;
+	font-size: 1.8vw;
+}
+/*选设计师结束*/
+/*尾部开始*/
+.footer{
+	margin-top: 20px;
+	padding: 25px 59px 31px 59px;
+	background: #fff;
+	text-align: center;
+}
+/*四个盒子*/
+.footer_top{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 41px;
+	/*background: blue;*/
+}
+.footer_top li{
+	width: 22%;
+	height: 77px;
+	line-height: 77px;
+	text-align: center;
+	font-size: 2vw;
+}
+.footer_top li a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer_top li:nth-child(1){
+	background: #00b1da;
+}
+.footer_top li:nth-child(2){
+	background: #01be6c;
+}
+.footer_top li:nth-child(3){
+	background: #fdb31a;
+}
+.footer_top li:nth-child(4){
+	background: #fd7251;
+}
+/*文字*/
+.footer_bottom>a{
+	color: #000;
+	font-size: 2.3vw;
+}
+.footer_bottom>p{
+	font-size: 1.5vw;
+	color: #DDDDDD;
+	margin-top: 30px;
+}
 /*免费预订样式结束*/
