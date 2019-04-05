@@ -1,0 +1,190 @@
+body{background:#efefef}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    width: 100%;
+    /*height: 8000px;*/
+    margin: 0 auto;
+    max-width: 767px;
+    min-width: 320px;
+	background: #e00001;
+}
+/*15秒快速预约开始*/
+.yuyue{
+	padding: 43px 101px 43px 101px;
+	text-align: center;
+	/*background: pink;*/
+}
+.yuyue>h3{
+	color: #fff;
+	font-size: 3.5vw;
+}
+.yuyue>h6{
+	margin-top: 9px;
+	color: #fff;
+	font-size: 1.5vw;
+}
+/*填写相关信息*/
+.xixin{
+	margin-top: 68px;
+	/*background: yellow;*/
+}
+.name{
+	display: flex;
+	height: 72px;
+	margin-bottom: 31px;
+}
+.name>span{
+	color: #fff;
+	line-height: 72px;
+	margin-right: 1%;
+	font-size: 2vw;
+}
+.name input[type="text"]{
+	width: 75%;
+	height: 72px;
+	border: none;
+	border-radius: 10px;
+	font-size: 2vw;
+	padding-left: 3%;
+	box-sizing: border-box;
+}
+/*立即报名*/
+.baoming{
+	width: 50%;
+	margin: 0 auto;
+	padding: 23px 0;
+	color: #fff;
+	font-size: 3vw;
+	border-radius: 10px;
+	border: 2px solid #fff;
+}
+/*15快速预约结束*/
+/*佳园装饰简介开始*/
+.intro_con{
+	padding: 15px 26px;
+	background: #fff;
+}
+.intro_con>h3{
+	font-size: 3vw;
+	color: #e50014;
+}
+.intro_con>h6{
+	font-size: 1.4vw;
+	color: #e50014;
+}
+.intro_con>p{
+	margin-top: 23px;
+}
+/*佳园装饰简介结束*/
+/*七家直营分公司遍布全省*/
+.map{
+	width: 100%;
+	position: relative;
+}
+.map_con{
+	position: absolute;
+	top: 28px;
+	left: 27px;
+	display: flex;
+	flex-direction: column;
+}
+.map_con>span:nth-child(1){
+	font-size: 3vw;
+	color: #e50014;
+}
+.map_con>span:nth-child(2){
+	font-size: 1.4vw;
+	color: #e50014;
+}
+/*七家直营分公司遍布全省结束*/
+/*服务理念*/
+.linian{
+	padding: 31px;
+	background: #fff;
+}
+.linian>ul{
+	display: flex;
+	flex-direction: column;
+}
+.jishu{
+	font-size: 2vw;
+	color: #fff;
+	padding-left: 6%;
+	margin-bottom: 25px;
+	background: url(../images/quan.jpg)no-repeat;
+}
+.oushu{
+	font-size: 1.3vw;
+	padding-left: 6%;
+	margin-bottom: 25px;
+}
+/*服务理念结束*/
+/*精英设计师*/
+.intro_con>img{
+	margin-top: 32px;
+}
+/*装修热线*/
+.hot{
+	padding: 29px 83px;
+	background: red;
+	margin-bottom: 150px;
+}
+.hot_con{
+	display: flex;
+}
+.hot_con img{
+	flex: 1;
+}
+.tel{
+	flex: 2;
+	text-align: center;
+}
+.tel a{
+	color: #000;
+	font-size: 2vw;
+}
+.tel p{
+	font-size: 1.5vw;
+	margin-top: 22px;
+}
+/*装修热线结束*/
+/*固定定位*/
+.guding{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    width:100%;
+    max-width: 767px;
+    background: #ffc040;
+}
+.guding>ul{
+    display: flex;
+    justify-content: space-around;
+}       
+.guding>ul>li{
+    width: 20%;
+    text-align: center;
+}
+.guding>ul>li>img{
+    display: block;
+    width: 54px;
+    height: 54px;
+    margin-left: 35%;
+}
+.guding>ul>li>p{
+    color: #fff;
+    margin-top: 9px;
+    font-size: 1.3em;
+}
