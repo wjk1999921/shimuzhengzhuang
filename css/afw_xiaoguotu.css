@@ -1,0 +1,304 @@
+body{
+	background:#efefef;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    width: 100%;
+    /*height: 8000px;*/
+    margin: 0 auto;
+    max-width: 767px;
+    min-width: 320px;
+	background: #f5f5f5;
+}
+/*导航条*/
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 20px;
+	background: #fff;
+}
+/*左边*/
+.nav_left{
+	display: flex;
+}
+.nav_left img{
+	width: 51%;
+}
+.nav_left p{
+	width: 10px;
+	height: 10px;
+	margin: 31px 15px;
+	background: #000;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.nav_left span{
+	display: block;
+	line-height: 2;
+	font-size: 2.8vw;
+	font-weight: bold;
+}
+/*左边结束*/
+/*右边*/
+.nav_right{
+	display: flex;
+}
+.nav_right img{
+	width:100%;
+	margin-right: 15%;
+}
+/*三条竖线*/
+.line{
+	margin-top: 10px;
+}
+.line>span{
+	display: block;
+	width: 40px;
+	height: 6px;
+	margin-bottom: 9px;
+	border-radius: 10px;
+	background: #000;
+}
+/*导航条结束*/
+/*图标*/
+.tubiao ul{
+	padding: 42px 0;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	background: #fff;
+}
+.tubiao ul span{
+	display: block;
+	margin-top: 24px;
+	color: #000;
+	font-size: 1.8vw;
+}
+/*图标结束*/
+/*空间开始*/
+.space{
+	margin-top: 29px;
+	padding: 49px 50px;
+	background: #fff;
+}
+.space_top{
+	display: flex;
+	font-size: 2vw;
+	margin-bottom: 30px;
+}
+.space_top li{
+	margin-right: 52px;
+	/*background: yellow;*/
+}
+.space_top li:nth-child(1){
+	color: #33b371;
+	border-bottom: 2px solid #33b371;
+	box-sizing: border-box;
+}
+/*下*/
+.space_bottom{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 2vw;
+}
+.space_bottom li{
+	margin-right:40px;
+	/*background: yellow;*/
+}
+.space_bottom li a{
+	color: #666;
+}
+.xuanguan{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 2vw;
+	margin-top: 30px;
+}
+.xuanguan li{
+	margin-right:40px;
+}
+.xuanguan li a{
+	color: #666;
+}
+/*空间结束*/
+/*为你推荐*/
+.tuijian{
+	background: #f5f5f5;
+}
+/*线*/
+.tuijian_top{
+	padding: 21px 20px;
+	display: flex;
+}
+.tuijian_top p{
+	width: 39.64%;
+	height: 2px;
+	margin-top: 3%;
+	background: #ddd;
+}
+.tuijian_top span{
+	display: block;
+	width: 20.71%;
+	color: #999;
+	font-size: 2vw;
+	text-align: center;
+	/*background: yellow;*/
+}
+/*底部图片*/
+.tuijian_bottom{
+	display: flex;
+	justify-content: space-between;
+}
+/*左边卧室*/
+.woshi{
+	width: 61.01%;
+	position: relative;
+}
+.xiaoguotu{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	width: 100%;
+	padding: 16px 21px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+}
+.xiaoguotu_left{
+	width: 10px;
+	color: #fff;
+	font-size: 2vw;
+	padding-right: 32px;
+	border-right: 1px solid #fff;
+}
+.xiaoguotu_right{
+	padding-left: 17px;
+	color: #fff;
+}
+.xiaoguotu_right p{
+	font-size: 2vw;
+}
+.xiaoguotu_right span{
+	display: inline-block;
+	margin-top: 8px;
+}
+.xiaoguotu_right span:nth-child(3){
+	margin-left: 28px;
+}
+/*右边小户型*/
+.huxing{
+	width: 37.02%;
+	background: #fff;
+}
+.huxing h3{
+	font-size: 1.5vw;
+	margin-top: 28px;
+	margin-bottom: 42px;
+	padding-left: 18px;
+	box-sizing: border-box;
+}
+.huxing span{
+	display: inline-block;
+	margin-bottom: 11px;
+	color: #999;
+	padding-left: 18px;
+	box-sizing: border-box;
+}
+.huxing span:nth-child(4){
+	margin-left: 8%;
+}
+.huxing p{
+	font-size: 2vw;
+	color: #999;
+	padding-left: 18px;
+	box-sizing: border-box;
+}
+/*为你推荐结束*/
+/*5s获取免费报价*/
+.baojia{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 18px;
+	margin-top: 31px;
+	line-height: 2;
+	box-sizing: border-box;
+	background: #fff;
+}
+.baojia p{
+	font-size: 2vw;
+	font-weight: bold;
+}
+.baojia span{
+	display: block;
+	font-size: 2vw;
+}
+/*5s获取免费报价结束*/
+/*输入框*/
+.shurukuang{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 13px 25px 45px 25px;
+	background: #fff;
+}
+.shurukuang select{
+	width: 100%;
+	height: 61px;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-bottom: 21px;
+	color: #000;
+	font-size: 1.5vw;
+	padding-left: 2%;
+}
+.shurukuang input[type="text"]{
+	width: 100%;
+	height: 61px;
+	margin-bottom: 21px;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	box-sizing: border-box;
+	color: #ddd;
+	font-size: 2vw;
+	padding-left: 2%;
+}
+/*免费获取报价明细*/
+.mingxi{
+	width: 100%;
+	padding: 20px 0;
+	color: #fff;
+	font-size: 1.8vw;
+	background: #f6a031;
+	border-radius: 45px;
+	text-align: center;
+	box-shadow: 10px 10px 10px #c76009;
+	box-sizing: border-box;
+}
+/*输入框结束*/
+/*联系客服*/
+.contact{
+	padding: 10px 10px;
+	background: #fff;
+}
+.copy{
+	width: 100%;
+	text-align: center;
+	font-size: 1.4vw;
+	color: #9999b2;
+}
+/*联系客服结束*/
