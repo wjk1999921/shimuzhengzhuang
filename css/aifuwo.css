@@ -1,0 +1,361 @@
+body{
+	background:#efefef;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    width: 100%;
+    /*height: 8000px;*/
+    margin: 0 auto;
+    max-width: 767px;
+    min-width: 320px;
+	background: #f5f5f5;
+}
+/*导航条开始*/
+.nav{
+	width: 100%;
+	background: #fff;
+}
+.nav_con{
+	margin-bottom: 49px;
+	padding: 32px 22px;
+	display: flex;
+	justify-content: space-between;
+}
+/*上海*/
+.diming{
+	display: flex;
+	font-size: 3.2vw;
+}
+.diming>img{
+	width: 34px;
+	height: 18px;
+	margin-top: 13%;
+}
+/*三条竖线*/
+.line{
+	margin-top: 10px;
+}
+.line>span{
+	display: block;
+	width: 50px;
+	height: 6px;
+	margin-bottom: 9px;
+	border-radius: 10px;
+	background: #000;
+}
+.nav_tu{
+	padding: 0 22px;
+}
+/*图标开始*/
+.tubiao{
+	display: flex;
+	justify-content: space-around;
+	padding: 26px 22px;
+	text-align: center;
+}
+.tubiao>a{
+	width: 14%;
+}
+.tubiao span{
+	display: inline-block;
+	margin-top: 21px;
+	color: #000000;
+	font-size: 1.8vw;
+}
+/*图标结束*/
+/*线上曝光*/
+.online{
+	display: flex;
+	padding: 23px 42px;
+	justify-content: flex-start;
+	border-top: 4px solid #ddd;
+}
+.online>img{
+	width: 5%;
+}
+.online>div{
+	margin-left: 4%;
+	padding-left: 4%;
+	border-left: 1px solid #ddd;
+	box-sizing: border-box;
+	font-size: 1.8vw;
+}
+.online>div>a{
+	color: #898989;	
+}
+/*线上曝光结束*/
+/*导航条结束*/
+/*banner区域开始*/
+/*业主找装修*/
+.banner{
+	margin-top: 31px;
+	padding: 0 22px;
+	background: #fff;
+}
+/*顶部文字*/
+.words{
+	padding: 49px 0;
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+/*顶部图片*/
+.yezhu{
+	display: flex;
+	justify-content: space-between;
+}
+/*左边*/
+.yezhu_left{
+	width: 48.5%;
+	padding: 36px 66px;
+	box-sizing: border-box;
+	text-align: center;
+	background:#f2f5fa;
+}
+.yezhu_left a h4{
+	font-size: 2vw;
+	color: #181818;
+}
+.yezhu_left a p{
+	margin-top: 7px;
+	font-size: 1.5vw;
+	color: #646464;
+}
+.yezhu_left a img{
+	width: 69%;
+	margin-left: 9%;
+}
+/*右边*/
+.yezhu_right{
+	width: 48.5%;
+}
+.yezhu_right ul{
+	display: flex;
+	flex-wrap: wrap;
+	/*background: red;*/
+}
+.yezhu_right ul li{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 23px;
+	box-sizing: border-box;
+	background:#f2f5fa;
+}
+.yezhu_right ul li:nth-child(2){
+	margin-top: 7%;
+}
+.sheji>h4{
+	font-size: 2vw;
+	color: #181818;
+}
+.sheji>p{
+	margin-top: 7px;
+	font-size: 1.5vw;
+	color: #646464;
+}
+/*业主找装修结束*/
+/*特色服务开始*/
+.serve{
+	padding: 39px 0;
+}
+.serve_top{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 26px;
+}
+.serve_top>p{
+	width: 10px;
+	height: 10px;
+	margin-top: 3%;
+	background: #575757;
+	border-radius: 50%;
+}
+.serve_top>span{
+	font-size: 2.5vw;
+	font-weight: bold;
+	padding: 0 9px;
+	color: #575757;
+}
+/*下方图片*/
+.company{
+	display: flex;
+	justify-content: space-between;
+}
+.company>li{
+	width: 31%;
+	border-radius: 10px;
+	box-shadow:0 0 10px #ddd;
+	text-align: center;
+	padding: 33px 57px;
+	box-sizing: border-box;
+	/*background: red;*/
+}
+.company>li img{
+	width: 52%;
+	margin-left: 22%;
+}
+.company_con{
+	display: inline-block;
+	font-size: 2vw;
+	color: #000;
+	margin-top: 34px;
+}
+/*特色服务结束*/
+/*banner区域结束*/
+/*臻选设计案例开始*/
+.anli{
+	margin-top: 31px;
+	padding: 55px 22px;
+	background: #fff;
+}
+/*文字*/
+.common{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.commons_a{
+	font-size: 2.5vw;
+	padding-bottom: 55px;
+	font-weight: bold;
+}
+.commons_b{
+	font-size: 1.5vw;
+	color: #666;
+}
+/*底部图片*/
+.anli_tu ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.anli_tu ul li{
+	width: 49%;
+	border: 5px solid #ddd;
+	border-bottom: none;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.anli_tu ul li:nth-last-child(-n+2){
+	margin-top: 2%;
+}
+/*臻选设计案例结束*/
+/*行业TOP设计师*/
+.shejishi>ul{
+	display: flex;
+	justify-content: space-between;
+}
+.shejishi>ul>li{
+	width: 32%;
+	box-shadow:0 0 10px #ddd;
+	border-radius: 10px;
+	padding: 39px;
+	box-sizing: border-box;
+	/*background: yellow;*/
+}
+/*里面内容*/
+.shejishi_con{
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	text-align: center;
+}
+.shejishi_con img{
+	width: 84%;
+	margin-left: 7%;
+}
+.shejishi_con li:nth-child(2){
+	padding: 20px;
+	font-size: 2vw;
+	font-weight: bold;
+}
+.shejishi_con li:nth-child(3){
+	padding-bottom: 32px;
+	font-size: 1.3vw;
+	color: #696969;
+}
+.shejishi_con li:nth-child(4){
+	padding: 17px;
+	font-size: 2vw;
+	color: #fff;
+	background: #33b371;
+}
+/*行业TOP设计师结束*/
+/*互动社区*/
+.hudong{
+	margin-top: 31px;
+	padding: 55px 22px;
+	background: #fff;
+}
+.hudong_left{
+	width: 48.5%;
+	padding: 36px 23px;
+	box-sizing: border-box;
+	background:#f2f5fa;
+}
+.shijie{
+	font-size: 2vw;
+	color: #181818;
+	font-weight: bold;
+}
+.hudong_left img{
+	margin-top: 21%;
+	width: 53%;
+	margin-left: 19%;
+}
+/*互动社区结束*/
+/*尾部开始*/
+.footer{
+	padding: 86px 50px;
+	background: #f5f5f5;
+	text-align: center;
+}
+.footer h3{
+	font-size: 2vw;
+}
+.footer h6{
+	font-size: 2vw;
+	color: #999;
+	margin-top: 21px;
+	margin-bottom: 61px;
+}
+/*图标*/
+.footer_tubiao ul{
+	display: flex;
+}
+.footer_tubiao ul li{
+	width: 25%;
+	padding: 0 27px;
+	border-right: 1px solid #d2d2d2;
+	box-sizing: border-box;
+	/*background: yellow;*/
+}
+.footer_tubiao ul li:nth-child(4){
+	border-right: none;
+}
+.footer_tubiao ul img{
+	width: 50%;
+	margin-left: 22%;
+}
+.footer_tubiao ul span{
+	display: block;
+	color: #999;
+	font-size: 1.4vw;
+	margin-top: 27px;
+}
+/*尾部结束*/
