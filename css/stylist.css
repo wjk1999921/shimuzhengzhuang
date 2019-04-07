@@ -37,6 +37,7 @@ img{
 	margin-bottom: 15px;
 	border-radius:12px;
 	font-size:1.5em;
+	border:2px solid #ddd;
 }
 .shuru>img{
 	position: absolute;

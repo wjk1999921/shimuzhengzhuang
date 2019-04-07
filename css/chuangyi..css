@@ -1,0 +1,577 @@
+body{
+	background:#efefef;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    width: 100%;
+    /*height: 8000px;*/
+    margin: 0 auto;
+    max-width: 541px;
+    min-width: 320px;
+	background: #f4f4f4;
+}
+/*导航条*/
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 11px;
+	box-sizing: border-box;
+	background: #fafafa;
+}
+.nav_left{
+	font-size: 1.8vw;
+	color: #555;
+	line-height: 2;
+}
+/*左边*/
+.icon-next-copy{
+	display: inline-block;
+	font-size: 29px;
+	color: #555;
+}
+/*中间*/
+.logo img{
+	width: 50%;
+	margin-left: 25%;
+	line-height: 2;
+}
+/*右边*/
+.nav_right{
+	font-size: 1.2vw;
+	color: #555;
+	line-height: 2;
+}
+.icon-dianhua{
+	display: inline-block;
+	font-size: 24px;
+	color: #fdd263;
+}
+/*导航条结束*/
+/*图标*/
+.tubiao{
+	padding: 20px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.tubiao ul{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-between;
+}
+.tubiao ul li{
+	width: 22%;
+	/*background: yellow;*/
+}
+.tubiao ul li:nth-last-child(-n+4){
+	margin-top: 4%;
+}
+.tubiao ul li span{
+	display: block;
+	color: #181818;
+	margin-top: 16px;
+}
+/*图标结束*/
+/*创艺整装定制家*/
+.dingzhi{
+	width: 100%;
+	margin-top: 16px;
+	background: #fff;
+}
+/*标题*/
+.dingzhi_top{
+	padding: 8px 15px;
+	border-bottom: 1px solid #D2D2D2;
+	box-sizing: border-box;
+}
+.dingzhi_top a:nth-child(1){
+	display: inline-block;
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: #313131;
+}
+.dingzhi_top a:nth-child(2){
+	display: inline-block;
+	font-size: 1.3vw;
+	color: #666;
+}
+/*内容*/
+.dingzhi_bottom{
+	display: flex;
+	justify-content: space-around;
+}
+.dz_tu{
+	width: 62.29%;
+}
+.content{
+	width: 30.86%;
+	padding: 36px 22px;
+	text-align: center;
+	box-sizing: border-box;
+	background: #fc0;
+}
+.content a:nth-child(1){
+	display: block;
+	font-size: 1.5vw;
+	color: #181818;
+	font-weight: bold;
+}
+.content a:nth-child(2){
+	display: block;
+	font-size: 1.2vw;
+	margin-top: 9px;
+	color: #222222;
+}
+.content a:nth-child(3){
+	display:block;
+	font-size: 1vw;
+	color: #222222;
+	margin-top: 9px;
+	padding: 8px 24px;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+/*创艺整装定制家结束*/
+/*3s获得报价*/
+/*标题*/
+.baojia_top{
+	display: flex;
+	justify-content: space-between;
+	padding: 22px 15px 5px 15px;
+	border-bottom: 2px solid #D2D2D2;
+	box-sizing: border-box;
+}
+.baojia_top div:nth-child(1){
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: #313131;
+}
+.baojia_top div:nth-child(2){
+	font-size: 1.3vw;
+	color: #666;
+}
+/*内容*/
+.baojia_bottom{
+	padding: 13px 12px 41px 12px;
+	/*background: yellow;*/
+}
+.baojia_bottom div:nth-child(1){
+	width: 83.36%;
+	margin: 0 auto;
+	padding: 18px 0;
+	margin-bottom: 24px;
+	border: 1px solid #000;
+	font-size: 1.5vw;
+	box-sizing: border-box;
+	text-align: center;
+	/*background: blue;*/
+}
+.shurukuang{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.shurukuang input:nth-last-child(n+2){
+	width: 48%;
+	height: 61px;
+	font-size: 1.5vw;
+	padding-left: 3%;
+	margin-bottom: 14px;
+	border: 2px solid #D2D2D2;
+	border-radius: 10px;
+	box-sizing: border-box;
+	/*background: yellow;*/
+}
+.shurukuang input:nth-child(3){
+	width: 100%;
+	height: 61px;
+	font-size: 1.5vw;
+	padding-left: 3%;
+	border: 2px solid #D2D2D2;
+	border-radius: 10px;
+	box-sizing: border-box;
+	/*background: yellow;*/
+}
+.baojia_bottom p:nth-child(3){
+	width: 48%;
+	height: 61px;
+	line-height: 61px;
+	text-align: center;
+	margin: 14px auto;
+	font-size: 1.5vw;
+	background: #fc0;
+}
+/*已有多少人报价*/
+.chenggong{
+	display: flex;
+	border: 1px solid #fd9b0f;
+}
+.chenggong img{
+	width: 7%;
+}
+.chenggong span{
+	margin: 9px 28px;
+	font-size: 1.2vw;
+	color: #D2D2D2;
+}
+.baojia_bottom p:nth-child(5){
+	text-align: center;
+	font-size: 1.2vw;
+	margin-top: 14px;
+}
+/*3s获得报价结束*/
+/*精选装修案例*/
+.anli{
+	background: #fff;
+}
+/*标题*/
+.common{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	display: flex;
+	margin-bottom: 24px;
+	justify-content: space-between;
+	border-bottom: 1px solid #D2D2D2;	
+}
+.commons_a span:nth-child(1){
+	font-size: 1.8vw;
+	font-weight: bold;
+	padding: 0 16px;
+	margin-right: 10px;
+	background: #fc0;
+	box-sizing: border-box;
+	border-radius: 0 30px 0 0;
+}
+.commons_a span:nth-child(2){
+	font-size: 1.3vw;
+	color: #666;
+}
+.commons_b{
+	font-size: 1.3vw;
+	padding-right: 2%;
+	color: #313131;
+}
+/*标题结束*/
+/*内容*/
+.anli_Content{
+	padding: 0 14px;
+}
+/*风格*/
+.tab{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 12px;
+}
+.tab a{
+	display: inline-block;
+	width: 15%;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 10px;
+	text-align: center;
+	color: #222222;
+	font-size: 1.2vw;
+	background: #dcdcdc;
+}
+.tab a:nth-child(1){
+	background: #fc0;
+}
+/*图片*/
+.tab-container ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.tab-container ul li{
+	width: 49%;
+	background:  #fc0;
+	margin-bottom: 12px;
+	position: relative;
+}
+.tab-container>ul>li>a{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 11px 5px;
+	color: #fff;
+	font-size: 0.9vw;
+	background: rgba(0,0,0,0.6);
+	box-sizing: border-box;
+}
+.teshu{
+	text-align: center;
+	padding: 18px 63px 22px 63px;
+	box-sizing: border-box;
+}
+.teshu p:nth-child(1){
+	font-size: 1.5vw;
+}
+.teshu p:nth-child(2){
+	margin: 9px;
+	font-size: 1.1vw;
+	box-sizing: border-box;
+}
+.teshu p:nth-child(3){
+	border: 1px solid #000;
+	font-size: 1.3vw;
+	box-sizing: border-box;
+}
+/*精选装修案例结束*/
+/*设计师〇筑家*/
+.sylist{
+	margin-top: 10px;
+	background: #eeedeb;
+}
+/*内容*/
+.anli_Content>ul{
+	display: flex;
+	justify-content: flex-start;
+}
+.anli_Content>ul>li{
+	width: 33%;
+	background: #fff;
+}
+.anli_Content>ul>li:nth-child(1) img{
+	height: 396px;
+}
+.anli_Content>ul>li:nth-child(3){
+	margin-left: 3%;
+}
+/*简介*/
+.intro{
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+.intro li:nth-child(1) span:nth-child(1){
+	display: inline-block;
+	font-size: 1.5vw;
+	margin-top: 16px;
+	margin-bottom: 8px;
+	color: red;
+}
+/*方框*/
+.jingyan{
+	display: inline-block;
+	background: #fc0;
+	padding: 4px;
+	margin-bottom: 5px;
+}
+.find,.yuyue{
+	display: inline-block;
+	font-size: 1.3vw;
+	background: #fc0;
+	padding: 4px 0;
+	margin-top: 11px;
+	margin-bottom: 24px;
+	box-sizing: border-box;
+}
+/*简介结束*/
+/*右边小图*/
+.small img{
+	height: 185px;
+}
+.small2 img{
+	margin-top: 26px;
+	height: 185px;
+}
+/*设计师〇筑家结束*/
+/*VR实景体验-*/
+.VR{
+	margin-top: 15px;
+	/*background: yellow;*/
+}
+.VR_Content ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 15px;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.qujing{
+	width: 100%;
+	position: relative;
+}
+.qujing img{
+	height: 234px;
+	border-radius: 20px;
+}
+.qujing p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 14px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 1.7vw;
+	border-radius: 0 0 20px 20px;
+	background: rgba(0,0,0,0.7);
+}
+.huayuan{
+	width: 49%;
+	margin-top: 10px;
+	text-align: center;
+}
+.huayuan img{
+	border-radius: 20px;
+}
+.huayuan p{
+	margin-top: 10px;
+	font-size: 1.5vw;
+}
+/*VR实景体验-结束*/
+/*创艺装修百科*/
+.baike{
+	margin-top: 40px;
+	background: #fff;
+}
+/*攻略*/
+.gonglue{
+	display: flex;
+	padding: 19px 9px;
+}
+.gonglue_right{
+	padding-left: 7px;
+	box-sizing: border-box;
+}
+.gonglue_right a:nth-child(2){
+	display: block;
+	margin: 13px 0;
+	color: #808080;
+	font-size: 1vw;
+}
+.gonglue_right a:nth-child(3){
+	display: block;
+	margin-top: 20px;
+	color: #808080;
+	font-size: 1vw;
+}
+/*创艺装修百科结束*/
+/*品牌实力*/
+.pinpai{
+	margin-top: 39px;
+}
+/*内容*/
+.pinpai_Content ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.pinpai_Content ul li{
+	width: 46%;
+	position: relative;
+}
+.pinpai_Content ul li:nth-last-child(-n+2){
+	margin-top: 3%;
+}
+.pinpai_Content ul li div{
+	position: absolute;
+	top: 15px;
+	left: 26px;
+}
+.pinpai_Content ul li h6{
+	font-size: 1.3vw;
+	margin-bottom: 10px;
+}
+.company{
+	width: 73%;
+	height: 25px;
+	font-size: 1.2vw;
+	margin: 0 auto;
+	background: #fc0;
+}
+.jiasi{
+	width: 100%;
+	height: 25px;
+	font-size: 1.2vw;
+	/*margin: 0 auto;*/
+	text-align: center;
+	background: #fff;
+}
+/*品牌实力jieshu*/
+/*联系我们*/
+.contact{
+	margin-top: 17px;
+	background: #fff;
+}
+.contact_top{
+	display: flex;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 15px;
+	justify-content: space-between;
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+.contact_top p:nth-child(1){
+	font-size: 1.7vw;
+	color: #fc0;
+}
+.contact_bottom{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 9px;
+	box-sizing: border-box;
+}
+.contact_bottom img{
+	width: 30%;
+	height: 126px;
+}
+.contact_con li{
+	margin-bottom: 12px;
+	color: #333;
+	font-size: 1.2vw;
+}
+/*联系我们结束*/
+/*尾部*/
+.copy{
+	text-align: center;
+	font-size: 1.2vw;
+	margin-bottom: 200px;
+}
+/*固定定位*/
+.guding{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    width:100%;
+    max-width: 541px;
+    background: #ffc040;
+}
+.guding>ul{
+    display: flex;
+    justify-content: space-around;
+}       
+.guding>ul>li{
+    width: 20%;
+    text-align: center;
+}
+.guding>ul>li>img{
+    display: block;
+    width: 54px;
+    height: 54px;
+    margin-left: 35%;
+}
+.guding>ul>li>p{
+    color: #fff;
+    margin-top: 9px;
+    font-size: 1.3em;
+}

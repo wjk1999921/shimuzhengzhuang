@@ -1,0 +1,15 @@
+<MKM version="2.0" imageFileUrl="file:///D:/shimuzhengzhuang/%e9%87%8f%e5%9b%be%e5%8f%8abug%e8%ae%b0%e5%bd%95/%e6%8a%a5%e4%bb%b7.png">
+  <Marks>
+    <LengthMark x="468" y="44" color="16711680" length="18" direction="12"/>
+    <LengthMark x="588" y="0" color="16711680" length="15" direction="3"/>
+    <LengthMark x="466" y="491" color="16711680" length="25" direction="12"/>
+    <LengthMark x="838" y="636" color="16711680" length="61" direction="3"/>
+    <LengthMark x="756" y="449" color="16711680" length="13" direction="3"/>
+    <LengthMark x="820" y="801" color="16711680" length="45" direction="3"/>
+    <LengthMark x="730" y="613" color="16711680" length="22" direction="3"/>
+    <LengthMark x="912" y="725" color="16711680" length="20" direction="3"/>
+    <ColorMark x="1100" y="772" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="786" y="795" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="984" y="3007" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+  </Marks>
+</MKM>
