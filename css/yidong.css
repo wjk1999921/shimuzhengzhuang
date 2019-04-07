@@ -1,0 +1,335 @@
+body{
+	background:#efefef;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/*大容器*/
+.container{
+    width: 100%;
+    /*height: 8000px;*/
+    margin: 0 auto;
+    max-width: 752px;
+    min-width: 320px;
+	background: #efefef;
+}
+/*logo*/
+.logo{
+	display: flex;
+	justify-content: space-between;
+	padding:18px;
+	background: #118cd2;
+}
+/*logo结束*/
+/*banner*/
+.banner{
+	padding-top: 12px;
+	background: #efefef;
+}
+/*banner结束*/
+/*导航条开始*/
+.nav{
+	padding: 21px 31px;
+	background: #fff;
+}
+.nav_top{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	border-bottom:1px solid #dfdfdf;
+}
+.nav_top a{
+	width: 17%;
+}
+.nav_top a span{
+	display: block;
+	margin-top: 8px;
+	color: #D2D2D2;
+	font-size: 1.8vw;
+}
+.nav_top a:nth-last-child(-n+5){
+	margin: 28px 0;
+}
+/*详情*/
+.nav_bottom{
+	padding: 23px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.left_nav_bottom{
+	display: flex;
+}
+.left_nav_bottom img{
+	width: 18%;
+}
+.left_nav_bottom span{
+	margin-left: 21px;
+	font-size: 1.8vw;
+	font-weight: bold;
+}
+.right_nav_bottom a{
+	font-size: 1.8vw;
+	color: #4ea9dd;
+}
+/*导航条结束*/
+/*热门推荐*/
+.hot{
+	margin-top: 20px;
+	background: #fff;
+}
+/*标题*/
+.hot_title{
+	display: flex;
+	padding:24px 31px;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+.hot_title img{
+	width: 6%;
+}
+.hot_title span{
+	font-size: 1.8vw;
+	margin-left: 10px;
+	font-weight: bold;
+}
+/*内容*/
+.hot_content{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.hot_content li{
+	border-right: 1px solid #ddd;
+}
+.hot_content li:nth-child(3){
+	border-right: none;
+}
+.hot_content li h3{
+	margin-top: 15px;
+	font-size: 1.8vw;
+	color: #444;
+}
+.hot_content li p{
+	padding: 10px 0;
+	color: #666;
+}
+/*热门推荐结束*/
+/*流量*/
+/*标题*/
+.title{
+	display: flex;
+	padding:24px 31px;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+.commons_a{
+	display: flex;
+	width: 70%;
+}
+.commons_a img{
+	width: 4%;
+}
+.commons_a span{
+	display: inline-block;
+	font-size: 1.8vw;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.commons_b{
+	font-size: 1.8vw;
+	color: #4ea9dd;
+}
+/*内容*/
+.liuliang_content{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.liuliang_content>li{
+	width: 50%;
+}
+.liuliang_content>li:nth-child(1){
+	border-right: 1px solid #ddd;
+	box-sizing: border-box;
+}
+/*视频流量大聚合*/
+.liuliang_content>li>h3{
+	margin-top: 15px;
+	font-size: 1.8vw;
+	color: #444;
+}
+.liuliang_content>li>p{
+	padding: 10px 0;
+	color: #666;
+}
+/*畅享套餐*/
+.taocan>li{
+	height: 136px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	display: flex;
+}
+.chuangxiang>h3{
+	margin-top: 15px;
+	font-size: 1.6vw;
+	color: #444;
+}
+.chuangxiang>p{
+	padding: 10px 0;
+	color: #666;
+}
+.taocan>li>img{
+	width: 46%;
+	margin-left: 23%;
+}
+.taocan>li:nth-child(1){
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+/*流量结束*/
+/*宽带*/
+#chaxun{
+	border: 1px solid #f33;
+	padding: 2px;
+	font-size: 1vw;
+	color: #f33;
+}
+/*手机*/
+.phone_content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.phone_content li{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	border-bottom:1px solid #ddd;
+	padding: 21px 14px;
+	box-sizing: border-box;
+}
+.phone_content li:nth-child(1),.phone_content li:nth-child(3){
+	border-right: 1px solid #ddd;
+}
+.phone>h3{
+	font-size: 1.4vw;
+	margin-bottom: 10px;
+}
+.phone>p{
+	font-size: 1.3vw;
+	color: #b3b3b3;
+	margin-bottom: 20px;
+}
+.phone>span{
+	font-size: 1.8vw;
+	font-weight: bold;
+	color: #e30077;
+}
+/*手机结束*/
+/*点击加载更多*/
+.jiazai{
+	text-align: center;
+	padding: 17px 0;
+	font-size: 2vw;
+	color: #0077AA;
+}
+/*登录*/
+.denglu{
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 30px;
+	background: #fff;
+}
+.denglu_left{
+	font-size: 1.5vw;
+}
+.dengli_right{
+	display: flex;
+	width: 19%;
+	/*background: red;*/
+}
+.dengli_right img{
+	width: 10%;
+}
+.dengli_right span{
+	font-size: 1.8vw;
+	color: #626262;
+}
+/*登陆结束*/
+/*尾部*/
+/*上*/
+.footer_top{
+	display: flex;
+	justify-content: space-between;
+	padding: 37px 143px;
+	text-align: center;
+}
+.footer_top a{
+	width: 24%;
+}
+.footer_top a span{
+	display: block;
+	margin-top: 18px;
+	font-size: 1.5vw;
+	color: #9f9f9f;
+}
+/*中*/
+.footer p{
+	font-size: 1.4vw;
+	color: #9f9f9f;
+	padding: 42px 0;
+	text-align: center;
+}
+/*下*/
+.footer_bottom{
+	display: flex;
+	margin-bottom: 46px;
+}
+.keguduan{
+	display: flex;
+	width: 57.18%;
+	padding:13px 29px;
+	box-sizing: border-box;
+	background: #9f9f9f;
+}
+.keguduan img{
+	width: 15%;
+}
+.keguduan span{
+	margin-left: 13px;
+	font-size: 2vw;
+	margin-top: 3%;
+}
+.footer_bottom li:nth-child(2){
+	width: 17.88%;
+	line-height: 2;
+	background: #5f5f5f;
+	text-align: center;
+	font-size: 1.8vw;
+	padding-top: 2%;
+	color: #fff;
+}
+.footer_bottom li:nth-child(3){
+	width: 25.39%;
+	line-height: 2;
+	background: #f33;
+	text-align: center;
+	font-size: 1.8vw;
+	padding-top: 2%;
+	color: #fff;
+}
+/*尾部结束*/
