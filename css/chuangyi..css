@@ -95,19 +95,21 @@ img{
 }
 /*标题*/
 .dingzhi_top{
+	display: flex;
 	padding: 8px 15px;
 	border-bottom: 1px solid #D2D2D2;
 	box-sizing: border-box;
 }
 .dingzhi_top a:nth-child(1){
-	display: inline-block;
-	font-size: 1.5vw;
+	/*display: inline-block;*/
+	font-size: 1.4vw;
 	font-weight: bold;
 	color: #313131;
 }
 .dingzhi_top a:nth-child(2){
-	display: inline-block;
-	font-size: 1.3vw;
+	/*display: inline-block;*/
+	line-height: 2;
+	font-size: 1.1vw;
 	color: #666;
 }
 /*内容*/
@@ -226,7 +228,7 @@ img{
 }
 .chenggong span{
 	margin: 9px 28px;
-	font-size: 1.2vw;
+	font-size: 1.1vw;
 	color: #D2D2D2;
 }
 .baojia_bottom p:nth-child(5){
@@ -250,7 +252,7 @@ img{
 	border-bottom: 1px solid #D2D2D2;	
 }
 .commons_a span:nth-child(1){
-	font-size: 1.8vw;
+	font-size: 1.5vw;
 	font-weight: bold;
 	padding: 0 16px;
 	margin-right: 10px;
@@ -259,11 +261,11 @@ img{
 	border-radius: 0 30px 0 0;
 }
 .commons_a span:nth-child(2){
-	font-size: 1.3vw;
+	font-size: 1.1vw;
 	color: #666;
 }
 .commons_b{
-	font-size: 1.3vw;
+	font-size: 1.2vw;
 	padding-right: 2%;
 	color: #313131;
 }
@@ -312,7 +314,7 @@ img{
 	width: 100%;
 	padding: 11px 5px;
 	color: #fff;
-	font-size: 0.9vw;
+	font-size: 0.8vw;
 	background: rgba(0,0,0,0.6);
 	box-sizing: border-box;
 }
@@ -376,7 +378,7 @@ img{
 }
 .find,.yuyue{
 	display: inline-block;
-	font-size: 1.3vw;
+	font-size: 1vw;
 	background: #fc0;
 	padding: 4px 0;
 	margin-top: 11px;
@@ -488,7 +490,7 @@ img{
 	left: 26px;
 }
 .pinpai_Content ul li h6{
-	font-size: 1.3vw;
+	font-size: 1.2vw;
 	margin-bottom: 10px;
 }
 .company{

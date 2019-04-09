@@ -82,7 +82,7 @@ img{
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	text-align: center;
-	font-size: 1.8vw;
+	font-size: 1.6vw;
 	margin-right: 2%;
 	box-sizing: border-box;
 }
@@ -92,7 +92,7 @@ img{
 	border: 1px solid #ddd;
 	border-radius: 10px;
 	text-align: center;
-	font-size: 1.8vw;
+	font-size: 1.6vw;
 	box-sizing: border-box;
 }
 .free_bottom>p{
@@ -138,22 +138,22 @@ img{
 	/*background: blue;*/
 }
 .new_con>ul>li:nth-child(2){
-	font-size: 1.8vw;
+	font-size: 1.6vw;
 	margin-left: 1.5%;
 }
 .new_con>ul>li:nth-child(3){
-	font-size: 1.6vw;
+	font-size: 1.4vw;
 	margin-left: 3%;
 	color: #ddd;
 }
 .new_con>ul>li:nth-child(4){
-	width: 25%;
-	margin-left: 5.4%;
+	width: 22%;
+	margin-left: 2%;
 	text-align-last: right;
 }
 .new_con>ul>li>a{
 	color: #6e6e6e;
-	font-size: 1.8vw;
+	font-size: 1.6vw;
 	
 }
 /*顶部文字结束*/
@@ -161,7 +161,7 @@ img{
 /*家装案例kaishi*/ 
 /*更多*/
 #more{
-	width: 25%;
+	width: 21%;
 	margin-left: 23.4%;
 	text-align-last: right;
 }
@@ -254,7 +254,7 @@ img{
 /*选设计师开始*/
 /*更多*/
 #sjs_more{
-	width: 25%;
+	width: 20%;
 	margin-left: 14.4%;
 	text-align-last: right;
 }
@@ -271,6 +271,9 @@ img{
 }
 .yangjing_left{
 	width: 42.68%;
+}
+.yangjing_left img{
+	height: 402px;
 }
 /*右边*/
 .yangjing_right{

@@ -102,11 +102,11 @@ img{
 	display: flex;
 }
 .jingyan>p:nth-child(1){
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin-top: 18px;
 }
 .jingyan>p:nth-child(2){
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin-top: 18px;
 	color: #fd9d29;
 }
@@ -114,7 +114,7 @@ img{
 	font-size: 1.5em;
 }
 .style>p:nth-child(2){
-	font-size: 1.5em;
+	font-size: 1.4em;
 	color: #fd9d29;
 	padding: 36px 0;
 	text-align: center;

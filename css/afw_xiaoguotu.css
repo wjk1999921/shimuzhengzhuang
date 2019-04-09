@@ -38,19 +38,20 @@ img{
 }
 .nav_left img{
 	width: 51%;
+	height: 83%;
 }
 .nav_left p{
 	width: 10px;
 	height: 10px;
-	margin: 31px 15px;
+	margin: 19px 15px;
 	background: #000;
 	border-radius: 50%;
 	box-sizing: border-box;
 }
 .nav_left span{
 	display: block;
-	line-height: 2;
-	font-size: 2.8vw;
+	/*line-height: 2;*/
+	font-size: 2.3vw;
 	font-weight: bold;
 }
 /*左边结束*/
@@ -64,7 +65,7 @@ img{
 }
 /*三条竖线*/
 .line{
-	margin-top: 10px;
+	margin-top: 0px;
 }
 .line>span{
 	display: block;
